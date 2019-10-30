@@ -1,5 +1,5 @@
 package javabasics.pack2;
-import javabasics
+//import javabasics;
 public class Anjali {
 
 }

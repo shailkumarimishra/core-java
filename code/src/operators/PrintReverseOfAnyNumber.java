@@ -18,13 +18,13 @@ public class PrintReverseOfAnyNumber {
 		int i=((b*10)+d)*10+f;
 		System.out.println(i);**/
 	//2.
-		int temp[];
+		/**int temp[];
 		int i=1;
 		for(i=i*n;) {
 			temp[i]=a/10;
 		    temp[i-1]=a%10;
 		    int b=(temp[i-1]*10)+
-		}
+		}**/
 		
 		
 		
