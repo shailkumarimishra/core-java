@@ -1,0 +1,4 @@
+1. git clone -> remote code clones to local area
+2. git pull -> to fetch updated file
+3. git commit -> local area to stage area
+4. git push -> stage area to remote area
