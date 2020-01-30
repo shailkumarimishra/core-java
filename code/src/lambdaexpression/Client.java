@@ -33,18 +33,39 @@ public class Client {
 			System.out.println(it.next());
 		}*/
 		//Q1. Fetch those student whose name starts with A?
-		List<Student> list=new ArrayList<>();
+		/*List<Student> list=new ArrayList<>();
 		for(Student st:li) {
 			if(st.getName().startsWith("a")) {
 				list.add(st);
 				
 			}
 		}
-		list.forEach(System.out::println);
+		list.forEach(System.out::println);*/
 //		Q2. Fetch those  students whose sid lies between 5 to 8?
+	/*	List<Student> list1=new ArrayList<>();
+		for(Student s:li) {
+			if(s.getSid()>5 & s.getSid()<8) {
+				list1.add(s);
+			}
+		}
+		list1.forEach(System.out::println);*/
 //		Q3. Update those students name whose name starts with "s" and length must be > 5 and update with "Java"?
-//      Q4. Update all the students names  first character with upper letter?		
-		
+		/*List<Student> list2=new ArrayList<>();
+		for(Student s:li) {
+			if(s.getName().startsWith("s") & s.getName().length()>5) {
+				s.setName("Java");
+				list2.add(s);
+			}
+		}
+		list2.forEach(System.out::println);*/
+//      Q4. Update all the students names  first character with upper letter?	
+		List <Student> list3=new ArrayList<>();
+		for(Student s:li) {
+			s.setName(s.getName().substring(0,1).toUpperCase().concat(s.getName().substring(1)));
+			
+			list3.add(s);
+		}
+		list3.forEach(System.out::println);
 		
 		
 		
