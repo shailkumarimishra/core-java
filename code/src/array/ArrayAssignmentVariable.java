@@ -37,7 +37,8 @@ public class ArrayAssignmentVariable {
 		//Object[][] obj3=new int[2][3];//Invalid
 		Object[] obj2=new int[2][3];//Valid
 		Object obj4=new Object[3];//Parent <- child
-		
+		Object [][] obj5=new int[3][2][1];//valid
+		System.out.println(obj5[0][0]);
 		
 		
 		

@@ -2,7 +2,8 @@ package javabasics;
 
 class Animal {
 	String family;
-	static String color;
+	static String color="blue";
+	
 	float speed;
 	int hornNo;
 

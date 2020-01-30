@@ -1,6 +1,6 @@
 package methodsandencapsulation;
 
-public class Employee {
+public  class Employee {
 
 	private String name;
 
@@ -16,10 +16,10 @@ public class Employee {
 		name = val;
 	}
 
-	public static void swap(Employee emp1, Employee emp2) {
-		Employee temp = emp1;
-		emp1 = emp2;
-		emp2 = temp;
+	public static void swap(Employee e1, Employee e2) {
+		Employee temp = e1;
+		e1 = e2;
+		e2 = temp;
 	}
 	public static void resetValueOfName(Employee e1){
 		e1.setName("Anu");
@@ -36,3 +36,4 @@ public class Employee {
 
 	}
 }
+

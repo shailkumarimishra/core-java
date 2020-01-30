@@ -4,11 +4,15 @@ public class SwitchStatement {
 
 	public static void main(String[] args) {
 		byte a=30;
+//		while(true) {int z=10;}
+		
 		final int b=40;
+		
 		//b=40;
 		final int c=50;
 		
 		switch(a) {
+		
 		case 10:{
 			System.out.println("bhaiya");
 			break;
@@ -31,6 +35,7 @@ public class SwitchStatement {
 			System.out.println("ambe");
 			break;
 		}
+		
 System.out.println("hello");
 	}
 	enum WeekDays{

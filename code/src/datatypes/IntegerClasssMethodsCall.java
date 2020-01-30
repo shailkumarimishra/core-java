@@ -3,6 +3,8 @@ package datatypes;
 public class IntegerClasssMethodsCall {
 
 	public static void main(String[] args) {
+		System.out.println(Math.floorMod(10,6));
+		System.out.println(Math.copySign(8, -2));
 		System.out.println (Character.MAX_RADIX+" "+Character.MIN_RADIX);
 		System.out.println(Integer.reverse(4));
 		System.out.println(Integer.max(10, 7));

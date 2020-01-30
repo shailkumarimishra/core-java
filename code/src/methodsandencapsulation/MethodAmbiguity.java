@@ -13,30 +13,31 @@ package methodsandencapsulation;
  */
 public class MethodAmbiguity {
 	/**public void m1(String s) {
-		System.out.println("string arg");
+		System.out.println("string arg");//++++++child , since line no.16 & line no.22 i.e String and object are having parent-child 
+		                                 //relationship Therefore child argument will execute.
 	}**/
 	public void m1(int[] array) {
 		System.out.println("array arg");
-	}
+	} //here array of int type is sibling of String so it will give compile time error 
 	public void m1(Object obj) {
-		System.out.println("Object arg");
+		System.out.println("Object arg");//+++++++ parent 
 	}
-	public void m1(float f,int i) {
+	public void m1(float f1,int f) {
 		System.out.println("float, int args");
 	}
-	/**public void m1(float f,float f1) {
+	public void m1(float f,float f1) {
 		System.out.println("float,float args");
 	}
 	public void m1(int i,int j) {
 		System.out.println("int, int args");
-	}**/
+	}
 	public void m1(int i, float f) {
 		System.out.println("int,float args");
 	}
 
 	public static void main(String[] args) {
 		MethodAmbiguity ma=new MethodAmbiguity();
-		ma.m1(10L,10);
+		ma.m1(null);
 
 	}
 

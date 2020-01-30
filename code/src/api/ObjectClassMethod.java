@@ -1,6 +1,6 @@
-package javabasics.test;
+package api;
 
-public class Q1a {
+public class ObjectClassMethod {
 
 	public static void main(String[] args) {
 		

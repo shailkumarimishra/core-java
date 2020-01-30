@@ -45,7 +45,7 @@ String s5=s1.intern();
 System.out.println(s1==s5);
 //s1=s1+"Kala";
 s1.concat("Kala");
-System.out.println(s1);
+System.out.println(s1.concat("shail"));
 String s2="Anjali";
 String s3="Anjali";
 String s4=new String("Anu");

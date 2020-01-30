@@ -10,7 +10,7 @@ public static String reverseWord(String s) {
 	for(int i=s.length()-1;i>=0;i--) {
 		//System.out.println(s.charAt(i));
 //		arr[j++]=s.charAt(i);
-		reverse=reverse+s.charAt(i);
+//		reverse=reverse+s.charAt(i);
 		sb.append(s.charAt(i));
 	}
 	sb.trimToSize();

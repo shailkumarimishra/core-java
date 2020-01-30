@@ -6,7 +6,7 @@ public class InstanceOfOperator {
 		Child c=new Child();
 		Parent p=new Parent();
 		Parent p1=new Child();
-		if(p1 instanceof Child)//true but (p instanceof Child) -> false
+		if( p instanceof Child)//true but (p instanceof Child) -> false
 		{
 			System.out.println(true);
 		}

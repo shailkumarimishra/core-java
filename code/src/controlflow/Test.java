@@ -25,7 +25,7 @@ public static void main(String[] args) {
 //	final long Max=24*60*60*1000*1000;
 //	final long Min=24*60*60*1000;
 //	System.out.println(Max );
-	//System.out.println((int)(char)(byte)-1);
+	System.out.println((int)(char)(byte)-1);
 	
 		
 }

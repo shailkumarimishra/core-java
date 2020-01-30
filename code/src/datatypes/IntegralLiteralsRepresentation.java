@@ -9,7 +9,7 @@ public class IntegralLiteralsRepresentation {
 		int b=053;
 		System.out.println(a);
 		System.out.println(b);
-		int c=1_00_000;
+		float c=1_00_000.89f;
 		char d='\u0000';
 		char e='\uffff';
 		System.out.println(d);
@@ -25,7 +25,7 @@ public class IntegralLiteralsRepresentation {
 		System.out.println(s);
 		ArrayList<Integer> l=new ArrayList<>();
 		l.add(10);
-//		System.out.println(l.add(10));
+		System.out.println(l.add(10));
 		
 
 	}

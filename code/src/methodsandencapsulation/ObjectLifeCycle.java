@@ -7,7 +7,8 @@ sb=new StringBuilder();**/
 	public static void main(String[] args) {
 		System.out.println(sb);//null
 		System.out.println(sb.append(true));//NullPointerException
-
+		/**ObjectLifeCycle olc;
+		olc=new ObjectLifeCycle();**/  //valid
 	}
 
 }

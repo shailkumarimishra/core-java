@@ -6,6 +6,7 @@ public class Student {
 	private int age;
 
 	public Student(int rollNo, String name, int age) {
+		
 		super();
 		checkAge(age);
 		this.rollNo = rollNo;
@@ -41,6 +42,7 @@ public class Student {
 	private void checkAge(int studentAge) {
 		if (studentAge<18) {
 			throw new IllegalArgumentException("Age should not be negative");
+
 		}
 	}
 

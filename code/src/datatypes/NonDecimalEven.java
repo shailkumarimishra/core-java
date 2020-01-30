@@ -10,6 +10,7 @@ public class NonDecimalEven {
 		int b=j%2;
 		System.out.println(b==0);
 		int k=053;
+		System.out.println(k);
 		int c=k%2;
 		System.out.println(c==0);
 		int l=016;
@@ -21,6 +22,8 @@ public class NonDecimalEven {
 		int n=0X9B;
 		int f=n%2;
 		System.out.println(f==0);
+		int q=0x9A;
+		System.out.println(q);
 
 	}
 

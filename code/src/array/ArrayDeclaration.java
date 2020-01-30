@@ -6,8 +6,8 @@ public class ArrayDeclaration {
 		int[] a ;
 		char[][] b;
 		long[][][] c;
-//		int[][] a,[][] b;
-//		int [][] a,b;
+//		int[][] a,[][] b;//error
+		int [][] u,t;
 		int []d;
 		int[]e [];
 		int [] [] []g ;

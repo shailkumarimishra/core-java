@@ -14,7 +14,8 @@ public class AssignmentOperator {
 		int f;
 		f=10;
 		f=f+1;
-		f+=1;//11
+		f+=1;//12
+		System.out.println(f);
 		//compound assignment operator
 		f-=1;//9
 		f/=2;//5

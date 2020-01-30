@@ -7,16 +7,17 @@ public class Test {
 	
 //int a=130;
 //byte b=(int)a;
-//	static boolean x;
-//	static boolean y;
+	static boolean x;
+	static boolean y;
 	public static void main(String[] args) {
-//		x=x||y && !x;
-//		y=y && x||y;
+		x=x||y && !x;
+		y=y && x||y;
 		int a=130;
 		byte b=(byte)a;
 		System.out.println(b);
-//		System.out.println(x);
-//		System.out.println(y);
+		System.out.println(x);
+		System.out.println(y);
+	
 	    
 		}
 		

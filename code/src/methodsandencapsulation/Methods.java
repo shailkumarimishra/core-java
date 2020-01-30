@@ -22,15 +22,17 @@ public int m2() {
 }
 public Student m3() {
 //	return null;
+//	Student s1=new Student(1,null,null);
 	return new Student(1,null,null);
+//	return s1;
 }
 public int[] m4() {
 //	return null;
-//	return new int[4];
-	int[] array= {10,20,30};
-//	return array;
-	int[] arr=new int[5];
-	return arr;
+	return new int[0];
+	/**int[] array= {10,20,30};
+	return array;**/
+	/**int[] arr=new int[5];
+	return arr;**/
 }
 public String m5() {
 //return null;
@@ -51,7 +53,8 @@ public String[] m6(String[] names) {
 //return null;
 //	return names;
 	String[] arrays= {"Shail","Anjali"};
-	return arrays;
+//	return arrays;
+	return new String[0];
 }
 public void m7(int a, int b, String name,Student s,int []array,Object obj) {
 return ;

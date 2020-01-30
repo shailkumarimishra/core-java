@@ -6,9 +6,9 @@ package javabasics;
  */
 public class CountObjects {
 static int count=0;
-//int a;
-//int b;
-//int c;
+int a;
+int b;
+int c;
 
 CountObjects(){
 	System.out.println(++count);

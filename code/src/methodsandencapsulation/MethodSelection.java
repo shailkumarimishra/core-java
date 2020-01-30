@@ -8,12 +8,12 @@ package methodsandencapsulation;
  * 6.Chudail ka prakoop matlab compile time error
  */
 public class MethodSelection {
-	public void m1(int i) {
+	/**public void m1(int i) {
 		System.out.println("primitive int");
-	}
-	public void m1(float f) {
+	}**/
+	/**public void m1(float f) {
 		System.out.println("primitive float");
-	}
+	}**/
 	public void m1(Integer i) {
 		System.out.println("Wrapper Integer");
 	}
@@ -23,9 +23,9 @@ public class MethodSelection {
 	/**public void m1(Object obj) {
 	System.out.println("Object");	
 	}**/
-	/**public void m1(int...a) {
+	public void m1(float...a) {
 		System.out.println("var argument");
-	}**/
+	}
 	/**public void m1(byte b) {
 		System.out.println("primitive byte");
 	}**/

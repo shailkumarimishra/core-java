@@ -3,12 +3,12 @@ package array;
 public class TwoDArray {
 
 	public static void main(String[] args) {
-		int[][] a=new int[3][2];
+	/**	int[][] a=new int[3][2];
 		System.out.println(a);
 		System.out.println(a[0]);
 		System.out.println(a[0][0]);
 		System.out.println(a.length);
-		System.out.println(a[0].length);
+		System.out.println(a[0].length);**/
 		/*for(int i=0;i<3;i++) {
 			for(int j=0;j<2;j++) {
 				System.out.println(a[i][j]);
@@ -29,6 +29,12 @@ public class TwoDArray {
 			for(int j=0;j<b[i].length;j++) {
 				System.out.println(b[i][j]);
 			}
+		}
+		for(int []z:b) {
+			for(int y=0;y<z.length;y++) {
+				System.out.println(z[y]);
+			}
+			
 		}
 
 	}

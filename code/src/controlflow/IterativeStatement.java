@@ -26,7 +26,7 @@ public class IterativeStatement {
 	public static void main(String[] args) {
 		skipOddNumber(10);
 		// printTableOf(7);
-		// while(true);
+//		 while(true);
 		// System.out.println("anjali chor hai");
 		Kala: {
 			Anjali: {
