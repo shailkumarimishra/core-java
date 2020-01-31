@@ -44,7 +44,7 @@ public class Client {
 //		Q2. Fetch those  students whose sid lies between 5 to 8?
 	/*	List<Student> list1=new ArrayList<>();
 		for(Student s:li) {
-			if(s.getSid()>5 & s.getSid()<8) {
+			if(s.getSid()>5 && s.getSid()<8) {
 				list1.add(s);
 			}
 		}
@@ -52,7 +52,7 @@ public class Client {
 //		Q3. Update those students name whose name starts with "s" and length must be > 5 and update with "Java"?
 		/*List<Student> list2=new ArrayList<>();
 		for(Student s:li) {
-			if(s.getName().startsWith("s") & s.getName().length()>5) {
+			if(s.getName().startsWith("s") && s.getName().length()>5) {
 				s.setName("Java");
 				list2.add(s);
 			}

@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 public class ApiClassInfo {
 
 	public static void main(String[] args) throws ClassNotFoundException {
-		Class<?> forName = Class.forName("java.lang.StringBuilder");
+		Class<?> forName = Class.forName("java.util.Iterator");
 		Method[] methods = forName.getMethods();
 		List<String> collect = Arrays.stream(methods).map(s->s.getName()).distinct().collect(Collectors.toList());
 		collect.forEach(System.out::println);
