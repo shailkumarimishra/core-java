@@ -1,5 +1,6 @@
 package com.jdbc.dao.impl;
 
+import java.sql.Array;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -49,13 +50,68 @@ public class StudentDAOImpl implements StudentDAO {
 
 	@Override
 	public StudentEntity findOneStudent() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	/*	Connection connection = JdbcUtil.getMySqlConnection();
+		String sql="select * from Student where sid=102";
+		Statement st=null;
+		
+		
+		try {
+			st=connection.createStatement();
+			ResultSet executeQuery = st.executeQuery(sql);
+			 executeQuery.
 
+			/*while (executeQuery != null && executeQuery.next()) {
+				int sid = executeQuery.getInt(1);
+				String stuName = executeQuery.getString(2);
+				int phone = executeQuery.getInt(3);
+				String email = executeQuery.getString(4);
+
+				StudentEntity entity = new StudentEntity();
+				entity.setStudentId(sid);
+				entity.setStudentName(stuName);
+				entity.setStudentPhone(phone);
+				entity.setStudentEmail(email);
+				
+		}*/
+	/*	}catch(SQLException e) {
+			e.printStackTrace();
+		}
+		finally {
+			JdbcUtil.closeResource(connection, st);
+		}*/
+		return null;
+		
+	}
 	@Override
 	public int updateStudent(int studentId) {
-		// TODO Auto-generated method stub
+		Connection con = JdbcUtil.getMySqlConnection();
+		String sql = "update student set stu_phone=1234 where stuid=101";
+		Statement st =null;
+		try {
+			 st = con.createStatement();
+			ResultSet executeQuery = st.executeQuery(sql);
+			executeQuery.updateRow();
+			/*while (executeQuery != null && executeQuery.next()) {
+				System.out.println(executeQuery+"shail");
+				int sid = executeQuery.getInt(1);
+				String stuName = executeQuery.getString(2);
+				int phone = executeQuery.getInt(3);
+				String email = executeQuery.getString(4);
+
+				StudentEntity entity = new StudentEntity();
+				entity.setStudentId(sid);
+				entity.setStudentName(stuName);
+				entity.setStudentPhone(phone);
+				entity.setStudentEmail(email);
+				list.add(entity);
+			}*/
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		finally {
+		JdbcUtil.closeResource(con, st);
+		}
 		return 0;
 	}
 
