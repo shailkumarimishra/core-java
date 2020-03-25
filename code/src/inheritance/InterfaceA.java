@@ -1,6 +1,7 @@
 package inheritance;
 
 public interface InterfaceA {
+
 	
 public abstract void m1();
 void m2();

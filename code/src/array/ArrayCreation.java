@@ -6,14 +6,27 @@ public class ArrayCreation {
 
 	public static void main(String[] args) {
 		int f[][]=new int[2][];
-	    f[0][0]=10;
+	  /*  f[0][0]=10;
 		f[0][1]=20;
 		f[1][0]=30;
 		f[2][0]=40;
 		f[2][1]=50;
-		System.out.println(f[1][0]);
+		System.out.println(f[1][0]);*/
+		f[0]=new int[2];
+		f[1]=new int[2];
+		 f[0][0]=10;
+		 f[0][1]=20;
+		 f[1][0]=30;
+		 f[1][1]=40;
+		 System.out.println(f[1][0]);
 		
 		
+//		boolean []b= {true,false};
+		int k1[]= {10,20};
+		int q1[]= {30,40,50,60};
+		System.out.println(k1[0]+" "+q1[0]);
+		q1=k1;
+		System.out.println(k1[0]+" "+q1[0]);
 		
 		
 //		long d=3l;

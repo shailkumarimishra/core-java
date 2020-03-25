@@ -22,7 +22,7 @@ public int m2() {
 }
 public Student m3() {
 //	return null;
-//	Student s1=new Student(1,null,null);
+	Student s1=new Student(1,null,null);
 	return new Student(1,null,null);
 //	return s1;
 }
@@ -37,7 +37,7 @@ public int[] m4() {
 public String m5() {
 //return null;
 //	return "Anjali";
-	return new String();
+	return new String("shail");
 }
 public Object m6() {
 //	return null;

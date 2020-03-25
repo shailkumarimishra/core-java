@@ -13,8 +13,9 @@ public class PolymorphismTest {
 	    p.m5();//m5() child
 	    p.m6();//m6()parent
 	    p.m7();//m7() of parent class
-	    Child1 c=(Child1)p;
-	    c.m8();//m8()
+//	    Child1 c=(Child1)p;
+//	    c.m8();//m8() or
+	    ((Child1)p).m8();
 	    
 	    
 		

@@ -49,37 +49,36 @@ public class StudentDAOImpl implements StudentDAO {
 	}
 
 	@Override
-	public StudentEntity findOneStudent() {
-	/*	Connection connection = JdbcUtil.getMySqlConnection();
-		String sql="select * from Student where sid=102";
+	public StudentEntity findOneStudent(int studentId) {
+		Connection connection = JdbcUtil.getMySqlConnection();
+		String sql="select * from Student where sid="+studentId;
 		Statement st=null;
-		
+		StudentEntity entity = new StudentEntity();
 		
 		try {
 			st=connection.createStatement();
 			ResultSet executeQuery = st.executeQuery(sql);
-			 executeQuery.
-
-			/*while (executeQuery != null && executeQuery.next()) {
-				int sid = executeQuery.getInt(1);
-				String stuName = executeQuery.getString(2);
-				int phone = executeQuery.getInt(3);
-				String email = executeQuery.getString(4);
-
-				StudentEntity entity = new StudentEntity();
-				entity.setStudentId(sid);
-				entity.setStudentName(stuName);
-				entity.setStudentPhone(phone);
-				entity.setStudentEmail(email);
+			boolean next = executeQuery.next();
+				if(next) {
+					int sid = executeQuery.getInt(1);
+					String studentName = executeQuery.getString(2);
+					int studentPhone = executeQuery.getInt(3);
+					String studentEmail = executeQuery.getString(4);
+					entity.setStudentId(sid);
+					entity.setStudentName(studentName);
+					entity.setStudentPhone(studentPhone);
+					entity.setStudentEmail(studentEmail);
+				}
 				
-		}*/
-	/*	}catch(SQLException e) {
+					
+
+		}catch(SQLException e) {
 			e.printStackTrace();
 		}
 		finally {
 			JdbcUtil.closeResource(connection, st);
-		}*/
-		return null;
+		}
+		return entity;
 		
 	}
 	@Override

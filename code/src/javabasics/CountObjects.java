@@ -14,7 +14,8 @@ CountObjects(){
 	System.out.println(++count);
 }
 	public static void main(String[] args) {
-		new CountObjects();
+		System.out.println(new CountObjects().a);
+		System.out.println(new CountObjects().b);
 		new CountObjects();
 		new CountObjects();
 		new CountObjects();

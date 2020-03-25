@@ -3,7 +3,10 @@ package array;
 public class ArrayAssignmentVariable {
 
 	public static void main(String[] args) {
-		int []a=new int[3];
+		int []a=new int[2];
+		a[1]=4;
+		a[2]=9;
+//		System.out.println(a[1]);
 		int [][]b=new int [3][3];
 	//	b=a;
 		int []c=new int[4];
@@ -39,6 +42,7 @@ public class ArrayAssignmentVariable {
 		Object obj4=new Object[3];//Parent <- child
 		Object [][] obj5=new int[3][2][1];//valid
 		System.out.println(obj5[0][0]);
+		Object obj8=new int[4];//p<-c
 		
 		
 		

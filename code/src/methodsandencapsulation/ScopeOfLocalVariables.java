@@ -1,6 +1,7 @@
 package methodsandencapsulation;
 // local variable->argument variable->instance variable->static variable(Scope)
 public class ScopeOfLocalVariables {
+	int d;
 	/*int z;
 	z=10;*/   // At class level such type declaration is invalid for instance variable. 
 	static int k=9;
@@ -26,7 +27,8 @@ public class ScopeOfLocalVariables {
 	}
 	
 	public static void m4(String s1,char c) {
-//		int s1;
+		int s2;
+		//System.out.println(s2);
 		try {
 			int x=10;
 		}
@@ -37,9 +39,9 @@ public class ScopeOfLocalVariables {
 //			System.out.println(x);
 		}
 	}
-	ScopeOfLocalVariables(final char c){
+	/*ScopeOfLocalVariables(final char c){
 		int z;
-	}
+	}*/
 	public void m5() {
 		if(true);
 		for(int x=0; ;);
@@ -48,4 +50,9 @@ public class ScopeOfLocalVariables {
 			int x=9;
 			}while(x>10);*///In while loop we can't use x because scope of x is limited to do block.(out of scope)
 	}
-}
+		public static void main(String[] args) {
+		ScopeOfLocalVariables s=new ScopeOfLocalVariables();
+		System.out.println(s.d);
+		}
+	}
+

@@ -3,6 +3,11 @@ package controlflow;
 public class RndWhileAndFor {
 int w;
 	public static void main(String[] args) {
+	/*	if(false) {
+			System.out.println("hii");
+		}
+		else
+			System.out.println("hey");*/
 	/**	int i=0;
 		int j=0;
 		int k=0;**/

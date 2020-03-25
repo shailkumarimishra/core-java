@@ -8,7 +8,7 @@ static String s2;//scope throughout the class.
 {
 System.out.println(x);	
 }
-public void m1() {
+public  void m1() {
 	System.out.println(x);
 }
 static {

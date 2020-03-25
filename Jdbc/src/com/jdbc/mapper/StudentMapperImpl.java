@@ -29,4 +29,21 @@ public class StudentMapperImpl implements StudentMapper {
 		return null;
 	}
 
+	@Override
+	public StudentEntity mapToStudentEntity(Student stu) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Student mapToStudent(StudentEntity entity) {
+		Student stu=new Student();
+		stu.setStudentId(entity.getStudentId());
+		stu.setStudentName(entity.getStudentName());
+		stu.setStudentPhone(entity.getStudentPhone());
+		stu.setStudentEmail(entity.getStudentEmail());
+
+		return stu;
+	}
+
 }

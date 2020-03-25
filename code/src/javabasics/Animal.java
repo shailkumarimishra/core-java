@@ -3,7 +3,9 @@ package javabasics;
 class Animal {
 	String family;
 	static String color="blue";
-	
+	static Integer i;
+	Double j;
+	static int k;
 	float speed;
 	int hornNo;
 
@@ -19,10 +21,15 @@ class Animal {
 //		int a = new Animal().hornNo;
 //		System.out.println(a);
 		Animal a = new Animal();
-		System.out.println(a.family);
-		System.out.println(color);
-		System.out.println(a.speed);
+//		System.out.println(a.family);
+//		System.out.println(color);
+//		System.out.println(a.speed);
+//		System.out.println(a.hornNo++);
+		System.out.println(a.i++);
 		System.out.println(a.hornNo);
+		System.out.println(a.j);
+		System.out.println(a.k++);
+		System.out.println(k);
 		color = "red";
 		System.out.println(color);
 		a.run();

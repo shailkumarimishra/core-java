@@ -1,6 +1,6 @@
 package inheritance;
 
-public interface InterF {
+ interface InterF {
 int a=10;
 void m1();
 default void m2() {

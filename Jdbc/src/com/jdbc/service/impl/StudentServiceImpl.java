@@ -23,8 +23,11 @@ public class StudentServiceImpl implements StudentService {
 
 	@Override
 	public Student getOneStudent(int studentId) {
-		// TODO Auto-generated method stub
-		return null;
+		StudentDAO dao=new StudentDAOImpl();
+		List<StudentEntity> list=null;
+//		list.add(dao.findOneStudent());
+		StudentMapper mapper=new StudentMapperImpl();
+		return mapper.mapToStudent(list.add(dao.findOneStudent())) ;
 	}
 
 	@Override

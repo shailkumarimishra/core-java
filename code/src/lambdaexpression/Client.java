@@ -61,7 +61,7 @@ public class Client {
 //      Q4. Update all the students names  first character with upper letter?	
 		List <Student> list3=new ArrayList<>();
 		for(Student s:li) {
-			s.setName(s.getName().substring(0,1).toUpperCase().concat(s.getName().substring(1)));
+			s.setname(s.getname().substring(0,1).toUpperCase().concat(s.getname().substring(1)));
 			
 			list3.add(s);
 		}

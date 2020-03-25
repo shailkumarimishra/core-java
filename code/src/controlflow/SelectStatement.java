@@ -18,6 +18,9 @@ public class SelectStatement {
 		int [] a= {10,20,30};
 		test(a);
 //test(-20,39,56,78);
+		
 	}
+	
+	
 
 }

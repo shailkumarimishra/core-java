@@ -37,7 +37,7 @@ public class ExceptionPropogation2 {
 	 * 
 	 * NOTE:- 
 	 * 
-	 * 1. While handling the Exception child come first the parent (valid for both checked & unchecked)
+	 * 1. While handling the Exception child come first then the parent (valid for both checked & unchecked)
 	 * 2. a) If you are throwing a checked Exception, in throws clause if there are multiple exceptions then you have to insert "," b/w
 	 * them (here,order doesn't matter) to represent.
 	 * 2. b) In throws clause you must propagate either same type or its parent type (but in a group child type Exception,  you can also propagate).
