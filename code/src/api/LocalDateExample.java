@@ -14,6 +14,7 @@ public class LocalDateExample {
 	public static void main(String[] args) {
 		LocalDate localdate=LocalDate.now();
 		System.out.println(localdate);
+		System.out.println(localdate);
 		System.out.println(localdate.getYear()+" "+localdate.getMonth());
 		System.out.println(localdate.getDayOfWeek()+" "+localdate.getDayOfMonth()+" "+localdate.getDayOfYear());
 		LocalDate localdate1=LocalDate.of(2019, Month.NOVEMBER, 25);
