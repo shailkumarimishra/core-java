@@ -6,7 +6,7 @@ public class ExceptionDemo {
 			System.out.println(10/0);
 		}
 	catch(Exception ae){
-		ae=new ArithmeticException();//
+//		ae=new ArithmeticException();
 	System.out.println("Exception occur while dividing the no.");	
 	}
 	System.out.println(30/5);

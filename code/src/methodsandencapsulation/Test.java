@@ -8,6 +8,7 @@ public class Test {
 		//s.setStudentAge(-10);
 		//System.out.println(s.getStudentAge());
 		char c='A';
+		System.out.println((int)'A');
 		System.out.println((char)calc(c));
 
 	}

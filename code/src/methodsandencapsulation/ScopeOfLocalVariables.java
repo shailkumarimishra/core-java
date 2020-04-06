@@ -39,9 +39,9 @@ public class ScopeOfLocalVariables {
 //			System.out.println(x);
 		}
 	}
-	/*ScopeOfLocalVariables(final char c){
-		int z;
-	}*/
+	ScopeOfLocalVariables(final char c){
+		int z=c;
+	}
 	public void m5() {
 		if(true);
 		for(int x=0; ;);
@@ -51,7 +51,7 @@ public class ScopeOfLocalVariables {
 			}while(x>10);*///In while loop we can't use x because scope of x is limited to do block.(out of scope)
 	}
 		public static void main(String[] args) {
-		ScopeOfLocalVariables s=new ScopeOfLocalVariables();
+		ScopeOfLocalVariables s=new ScopeOfLocalVariables('A');
 		System.out.println(s.d);
 		}
 	}

@@ -47,8 +47,9 @@ public class ExceptionExample1 {
 
 	public static void main(String[] args) {
 		ExceptionExample1 obj= new ExceptionExample1();
-		int a=obj.m3();
-		System.out.println(a);
+//		int a=obj.m3();
+//		System.out.println(a);
+		obj.m1();
 
 	}
 
