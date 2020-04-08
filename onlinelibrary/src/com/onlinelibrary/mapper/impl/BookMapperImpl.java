@@ -2,19 +2,19 @@ package com.onlinelibrary.mapper.impl;
 
 import java.util.List;
 
-import com.book.entity.BookDetailsEntity;
-import com.book.model.BookDetailsModel;
+import com.onlinelibrary.entity.BookEntity;
 import com.onlinelibrary.mapper.BookMapper;
+import com.onlinelibrary.model.BookModel;
 
 public class BookMapperImpl extends BookMapper {
 
 	@Override
-	public List<BookDetailsModel> mapToBook(List<BookDetailsEntity> entity) {
+	public List<BookModel> mapToBook(List<BookEntity> entity) {
 		return null;
 	}
 
 	@Override
-	public List<BookDetailsEntity> mapToBookEntity(List<BookDetailsModel> model) {
+	public List<BookEntity> mapToBookEntity(List<BookModel> model) {
 		return null;
 	}
 

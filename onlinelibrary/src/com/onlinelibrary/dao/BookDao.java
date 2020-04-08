@@ -1,11 +1,13 @@
-package com.onlinelibrary.service;
+package com.onlinelibrary.dao;
 
 import java.util.List;
 
 import com.onlinelibrary.model.BookModel;
 
-public interface BookService {
+public interface BookDao {
 	public abstract boolean addBook(BookModel book);
+
+	public abstract boolean verifyUser(String User, String password);
 
 	public abstract int deleteBook(String bookId);
 

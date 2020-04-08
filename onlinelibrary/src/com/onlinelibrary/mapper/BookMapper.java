@@ -2,11 +2,11 @@ package com.onlinelibrary.mapper;
 
 import java.util.List;
 
-import com.book.entity.BookDetailsEntity;
-import com.book.model.BookDetailsModel;
+import com.onlinelibrary.entity.BookEntity;
+import com.onlinelibrary.model.BookModel;
 
 public abstract class BookMapper {
-	public abstract List<BookDetailsModel> mapToBook(List<BookDetailsEntity> entity);
+	public abstract List<BookModel> mapToBook(List<BookEntity> entity);
 
-	public abstract List<BookDetailsEntity> mapToBookEntity(List<BookDetailsModel> model);
+	public abstract List<BookEntity> mapToBookEntity(List<BookModel> model);
 }

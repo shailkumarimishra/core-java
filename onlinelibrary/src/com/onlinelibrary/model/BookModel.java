@@ -1,6 +1,6 @@
-package com.book.entity;
+package com.onlinelibrary.model;
 
-public class BookDetailsEntity {
+public class BookModel {
 	private String bookId;
 	private String bookName;
 	private String authorName;
@@ -8,11 +8,11 @@ public class BookDetailsEntity {
 	private int edition;
 	private double cost;
 
-	public BookDetailsEntity() {
+	public BookModel() {
 		super();
 	}
 
-	public BookDetailsEntity(String bookId, String bookName, String authorName, String publication, int edition,
+	public BookModel(String bookId, String bookName, String authorName, String publication, int edition,
 			double cost) {
 		super();
 		this.bookId = bookId;
@@ -73,7 +73,7 @@ public class BookDetailsEntity {
 
 	@Override
 	public String toString() {
-		return "BookDetailsEntity [bookId=" + bookId + ", bookName=" + bookName + ", authorName=" + authorName
+		return "BookDetailsModel [bookId=" + bookId + ", bookName=" + bookName + ", authorName=" + authorName
 				+ ", publication=" + publication + ", edition=" + edition + ", cost=" + cost + "]";
 	}
 
